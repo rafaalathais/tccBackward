@@ -1,0 +1,53 @@
+.tela-caps{
+ display: none;
+ max-width: 1024;
+}
+
+  .caixa-dialogo{
+    background-color: rgba(0, 0, 0, 0.509);
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 3px gold solid;
+    display: flex;
+    
+  }
+
+.caixa-dialogo p{
+  margin: 0;
+}
+
+.caixa-personagem{
+ width: 50px;
+  border: 3px solid gold;
+  margin: 4px;
+  
+}
+
+.caixa-texto{
+  width: 85%;
+  border: 3px solid gold;
+  margin: 4px;
+}
+
+.caixa-opcoes{
+  float: right;
+}
+
+  .text span{
+    opacity: 0;
+  }
+
+  .text span.revealed{
+    opacity: 1;
+  }
+
+
+button{
+  cursor: pointer;
+}
+  button:hover{
+    background-color: blueviolet;
+  }

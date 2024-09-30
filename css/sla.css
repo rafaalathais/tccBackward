@@ -1,0 +1,67 @@
+body{
+
+    /*background-image: url('../imagens/fundoseta2.png');*/
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    min-height: none; /*altura da janela de navegação*/
+    min-width: none;
+}
+
+.game-container{
+    background-color: palegreen;
+    
+}
+
+
+.caixa {
+padding-top: 70px;
+text-align: center;
+
+}
+
+@font-face{
+    font-family: 'pixelmix';
+ src: url('pixelmix.ttf') format('truetype');
+ }
+
+h1{
+    color: purple ;
+    font-family: "pixelmix", sans-serif;
+    
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.botao{
+    text-decoration: none;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 35px;
+    color: gold;
+    border: 10;
+    border-color: gold;
+    background-color: transparent;
+    /*background-image: linear-gradient(to right, #FF0000, #00FF00);*/
+    /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);*/
+}
+
+.capitulos{
+    display: flex;
+    position: absolute;
+    background-color: rgb(172, 111, 111);
+    width: 300px;
+    height: 300px;
+   
+   
+}
