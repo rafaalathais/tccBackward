@@ -16,7 +16,7 @@ canvas.height = 576;
 ctx.fillStyle = 'lightpink';
 ctx.fillRect(0, 0, canvas.width, canvas.height);  //(x, y, widht, haigh)
 
-let telaAtual = 'capitulo1';
+let telaAtual = 'menu';
 
 
 //desenhando cada tela
