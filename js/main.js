@@ -59,7 +59,3 @@ capitulosbotao.addEventListener('click', function(){
 // dialogos cap 1
 
 draw();
-
-
-
-   export {canvas, ctx};
