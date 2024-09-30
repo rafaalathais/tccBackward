@@ -3,7 +3,6 @@ import ''*/
 import { drawMenu, Mostrabotoes} from "./menu.js";
 import { drawCapitulo1} from "./capitulo1.js";
 import { drawCapitulos } from "./capitulos.js";
-import { LoopMusica, playMusic } from "./musica.js";
 
 
 const canvas = document.querySelector('canvas');
@@ -27,7 +26,6 @@ function draw(){
         case 'menu':
         drawMenu();
         Mostrabotoes(true);
-        LoopMusica();
         break;
         case 'capitulos':
             drawCapitulos();
@@ -36,7 +34,6 @@ function draw(){
             case 'capitulo1':
             drawCapitulo1();
             Mostrabotoes(false);
-            LoopMusica();
             break;
             default:
                 denhaMenu();
